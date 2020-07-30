@@ -277,7 +277,8 @@ html{font-size:16px}
 .sf-feature-callout{margin-bottom:0}
 .sf-feature-grid-item{min-width:calc(33.33% - 1rem)}
 }
-@media (min-width: 768px and max-width: 1024px) {
+@media (min-width: 768px )and (max-width: 1024px) {
+    .sf-feature-callouts.selector{width:100%}
 img.cube.cube-right, img.cube.cube-left{display: none}
 .section1 .sf-section__copy-container {
     margin-left: 0;
